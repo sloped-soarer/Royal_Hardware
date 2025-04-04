@@ -1,0 +1,17 @@
+(footprint "GND_PLANE_VIA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62A21284)
+  (property "Sheetfile" "rf_board.kicad_sch")
+  (property "Sheetname" "")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    (tstamp a4218cc9-8540-4feb-8423-1766ecd1c6fd)
+  )
+  (fp_text value "gnd_via-open_xmega-rescue" (at 0 -0.5) (layer "F.SilkS") hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    (tstamp 98f4752c-3146-44c1-80e4-4bf688f2cb5d)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 0.889 0.889) (drill 0.508) (layers *.Cu)
+    (zone_connect 2) (tstamp 94a99fc6-5fa7-4849-a158-c8e02edbe188))
+)
